@@ -1,6 +1,6 @@
 {
     "symfony/console": {
-        "version": "6.0",
+        "version": "6.2",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
@@ -8,7 +8,7 @@
             "ref": "da0c8be8157600ad34f10ff0c9cc91232522e047"
         },
         "files": [
-            "./bin/console"
+            "bin/console"
         ]
     },
     "symfony/flex": {
@@ -20,39 +20,39 @@
             "ref": "146251ae39e06a95be0fe3d13c807bcf3938b172"
         },
         "files": [
-            "./.env"
+            ".env"
         ]
     },
     "symfony/framework-bundle": {
-        "version": "6.0",
+        "version": "6.2",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "5.4",
-            "ref": "3cd216a4d007b78d8554d44a5b1c0a446dab24fb"
+            "version": "6.2",
+            "ref": "af47254c5e4cd543e6af3e4508298ffebbdaddd3"
         },
         "files": [
-            "./config/packages/cache.yaml",
-            "./config/packages/framework.yaml",
-            "./config/preload.php",
-            "./config/routes/framework.yaml",
-            "./config/services.yaml",
-            "./public/index.php",
-            "./src/Controller/.gitignore",
-            "./src/Kernel.php"
+            "config/packages/cache.yaml",
+            "config/packages/framework.yaml",
+            "config/preload.php",
+            "config/routes/framework.yaml",
+            "config/services.yaml",
+            "public/index.php",
+            "src/Controller/.gitignore",
+            "src/Kernel.php"
         ]
     },
     "symfony/routing": {
-        "version": "6.0",
+        "version": "6.2",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "main",
-            "version": "6.0",
-            "ref": "eb3b377a4dc07006c4bdb2c773652cc9434f5246"
+            "version": "6.2",
+            "ref": "e0a11b4ccb8c9e70b574ff5ad3dfdcd41dec5aa6"
         },
         "files": [
-            "./config/packages/routing.yaml",
-            "./config/routes.yaml"
+            "config/packages/routing.yaml",
+            "config/routes.yaml"
         ]
     }
 }
